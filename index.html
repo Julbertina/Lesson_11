@@ -1,44 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/style.css">
     <title>Flexbox</title>
 </head>
 <body>
     <header class="header">
-        <div class="logo-nav">
-            <div class="logo">
-                <a href=""><img src="images/header_logo.svg" alt="logo"></a>
+        <div class="fixed-conteiner">
+            <div class="header__logo-nav">
+                <div class="header__logo">
+                    <a href=""><img src="images/header_logo.svg" alt="logo"></a>
+                </div>
+                <nav class="header-nav">
+                    <ul class="header-nav__list">
+                        <li class="header-nav__items"><a href="">Product</a></li>
+                        <li class="header-nav__items"><a href="">Features</a></li>
+                        <li class="header-nav__items"><a href="">Pricing</a></li>
+                        <li class="header-nav__items"><a href="">Case studies</a></li>
+                        <li class="header-nav__items"><a href="">Resources</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="nav-header">
-                <ul class="list-item">
-                    <li class="items"><a href="">Product</a></li>
-                    <li class="items"><a href="">Features</a></li>
-                    <li class="items"><a href="">Pricing</a></li>
-                    <li class="items"><a href="">Case studies</a></li>
-                    <li class="items"><a href="">Resources</a></li>
-                </ul>
-            </nav>
-        </div>
-            <div>
+            <div class="header__buttons">
                 <button class="button white">Log in</button>
                 <button class="button orange">Try it free</button>
             </div>
+        </div>
     </header>
     <hr class="line">
     <main>
         <section class="section-first">
             <div class="fixed-conteiner">
-                <div>
+                <div class="section-first__text">
                     <h1 class="title">Accelerate localization from code to delivery</h1>
                     <p class="paragraph">
                         A localization and translation management
-                        platform for agile teams. Embrace automation,
-                        workflow transparency, and fast
+                        platform for agile teams.<br> Embrace automation,
+                        workflow<br> transparency, and fast
                         project delivery.
                     </p>
-                    <div>
+                    <div class="section-first__buttons">
                         <button class="button orange">Try it free</button>
                         <button class="button white">Book a demo</button>
                     </div>
@@ -46,17 +49,17 @@
                         Try all features for 14 days · No credit card required
                     </p>
                 </div>
-                <div>
+                <div class="section-first__image">
                     <img class="picture-1" src="images/main_first.jpg" alt="picture">
                 </div>
             </div>
         </section>
         <section class="section-second">
             <div class="fixed-conteiner">
-                <h2 class="title">
+                <h2 class="section-second__title">
                     The preferred localization <br> tool of 1500+ companies
                 </h2>
-                <ul class="list-item">
+                <ul class="section-second__list">
                     <li><img src="images/section1_link1.svg" alt=""></li>
                     <li><img src="images/section1_link2.svg" alt=""></li>
                     <li><img src="images/section1_link3.svg" alt=""></li>
@@ -70,7 +73,7 @@
             <div class="fixed-conteiner">
                 <div class="cards-type1">
                     <h2 class="title">
-                        Control the localization process
+                        Control the<br> localization process
                     </h2>
                     <p class="paragraph">
                         Collaborate with your team in a single workspace. 
@@ -137,7 +140,7 @@
         </section>
         <section class="section-fourth">
             <div class="fixed-conteiner">
-                <h2 class="title">
+                <h2 class="section-fourth__title">
                     What can you localize with Lokalise?
                 </h2>
                 <div class="cards-wrapper">
@@ -205,7 +208,7 @@
         </section>
         <section class="section-fifth">
             <div class="fixed-conteiner">
-                <h2 class="title">
+                <h2 class="section-fifth__title">
                     Boost your localization team’s productivity tenfold
                 </h2>
                 <div class="cards-wrapper">
@@ -283,8 +286,8 @@
         </section>
         <section class="section-eighth">
             <div class="fixed-conteiner">
-                <h2 class="title">
-                    Integrate Lokalise with your work tools
+                <h2 class="section-eighth__title">
+                    Integrate Lokalise with<br> your work tools
                 </h2>
                 <p class="paragraph">
                     Automate processes, eliminate routine tasks, 
@@ -296,7 +299,7 @@
         </section>
         <section class="section-nineth">
             <div class="fixed-conteiner">
-                <h2 class="title">
+                <h2 class="section-nineth__title">
                     Localization made easy.<br> Why wait?
                 </h2>
                 <p class="paragraph">
